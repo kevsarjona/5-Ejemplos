@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla HTML</title>
+    <link rel="stylesheet" href="StyleTablas.css">
+
+</head>
+
+<body>
+    <table class="table">
+
+        <div class="titles">
+            <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+      
+        </div>
+        
+       
+        <div class="cuerpo">
+            <tbody>
+            
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+      
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+      
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Larry the Bird</td>
+                  <td> </td>
+                  <td>@twitter</td>
+                </tr>
+        </div>
+    </table>
+
+    
+
+
+</body>
+
+</html>
+
+
+
+
+CSS
+*{
+    box-sizing: border-box;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+table{
+    caption-side: bottom;
+    border-collapse: collapse;
+    
+}
+
+th{
+font-weight: bold;
+
+}
+
+th, td {
+    text-align: left;
+    border-bottom:solid 1px grey;
+    height:50px;
+
+  }
+
+
